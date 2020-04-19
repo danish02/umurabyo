@@ -1,0 +1,312 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+#advert{
+    height: 100px;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #58A2A8   ;
+    left: 0;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+
+}
+
+#siteicon{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    color: violet;
+}
+
+#siteicon{
+    float: left;
+    margin-right: 30px;
+}
+
+#menu{
+    float: left;
+    margin-right: 120px;
+}
+
+#social{
+    padding-top: 5px;
+}
+
+ul
+{
+margin:0px;
+padding:0px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+ul li{
+	float:left;
+    width: fit-content;
+    padding: 0 10px 0 10px;
+	line-height:50px;
+	text-align:center;
+	list-style:none;
+	font-size:18px;
+    position:relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li a:hover{
+	color:rgb(168, 165, 161);
+}
+
+ul li ul li{
+	display:none;
+}
+
+ul li:hover ul li{
+	display:block;
+}
+
+ul ul{
+	display:none;
+}
+
+ul li:hover > ul{
+	display:block;
+}
+ul ul ul{
+	margin-left:150px;
+	top:0px;
+	position:absolute;
+}
+
+
+
+
+.navig{
+	text-align:center;
+}
+
+#sitelogo{
+    float: left;
+    width: 200px;
+}
+
+#sitename{
+    float: left;
+    font-size: 120px;
+    color: #363C48 ;
+    font-weight: bold;
+    font-family: Arial Black;
+    
+}
+
+#sitebar{
+    float: left;
+    width: 5px;
+    height: 90px;
+    background-color: #363C48;
+    font-size: 40px;
+    margin: 60px 0 0 10px;
+}
+
+#NOB{
+    float: left;
+    font-size: 20px;
+    width: 100px;
+    color: #363C48 ;
+    font-weight: bold;
+    font-family: Arial Black;
+    margin: 60px 100px 0 10px;
+}
+
+#headergif{
+    width: 90%;
+    height: 400px;
+    margin-left: 70px;
+    position: relative;
+}
+
+#breakingNews{
+    width: 80%;
+    height: 45px;
+    background-color: #363C48;
+    margin: -20px 0 0 140px;
+    position: absolute;
+}
+
+#breakingNewstitle{
+    padding: 15px 0 0 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+
+#slider{
+    overflow: hidden;
+    margin-top: -25px;
+    color: white;
+    font-size: 20px;
+}
+
+#slider figure p {
+    float: left;
+    width: 20%;
+
+    
+  }
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    animation: slide 15s infinite;
+}
+
+ 
+  @keyframes slide {
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    90%{
+        left: -400%;
+    }
+    100%{
+        left: 0;
+    }
+  }
+
+
+
+#categories{
+    float: left;
+}
+
+#News{
+    margin: 60px 0 0 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: teal;
+}
+
+#news{
+    width: 97%;
+    margin: 20px 0px 50px 15px;
+}
+
+
+#newsTable{
+    width: 70%;
+    float: left;
+    opacity: 10;
+    display: block;
+    position: absolute;
+    padding-top: 10px;
+}
+#newstd{
+    padding: 0 15px 10px 15px;
+}
+
+#newsTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #363C48;
+    padding: 10px 0px 30px 0px;
+
+}
+
+#newsTitle:hover{
+    cursor: pointer;
+    color: seagreen;
+}
+
+
+
+#adverts{
+    width: 300px;
+    height: 700px;
+    border: rgb(168, 165, 161) solid 1px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 74%;
+    background-color: white;
+}
+
+#adverttitle{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #363C48;
+    background-color: silver;
+    padding: 10px 0px 10px 0px;
+}
+
+#advertpicture{
+    padding: 5px 0px 5px 35px;
+}
+
+#advertname{
+    font-weight: bold;
+    color: #363C48;
+    float: left;
+    width: fit-content;
+    padding: 0 5px 0 5px;
+	line-height:15px;
+	list-style:none;
+	font-size:15px;
+}
+
+
+#advertname,#advertlink:hover{
+    cursor: pointer;
+    color: seagreen;
+}
+
+#advertlink{
+    font-weight: bold;
+    color: #363C48;
+    float: left;
+    width: fit-content;
+    padding: 0 5px 0 5px;
+	line-height:15px;
+	list-style:none;
+	font-size:15px;
+}
+
+
+
+
